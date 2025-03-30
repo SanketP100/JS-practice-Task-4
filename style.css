@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background: #687a78;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw;
+}
+
+main #seen {
+    height: 90%;
+    width: 90%;
+    margin-top: 1vw;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    background-color: #000;
+    color: #fff;
+}
+
+#seen #girl {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+#girl img {
+    width: 85%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 100px;
+}
+
+
+#dress {
+    height: 70%;
+    width: fit-content;
+    background-color: cornflowerblue;
+}
+
+#dress img {
+    height: 100%;
+    /* width: 100%; */
+}
+
+#shopwala {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+#shopwala h3 {
+    margin-top: 10px;
+}
+
+#shopwala img {
+    height: 70vh;
+    margin-right: 50px;
+}
+
+#shopwala button {
+    padding: .5vw 1vw;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: rgb(113, 180, 183);
+    color: #000;
+    position: absolute;
+    left: -10px;
+    font-size: 1.2vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#shopwala button:active {
+    scale: 0.95;
+}
